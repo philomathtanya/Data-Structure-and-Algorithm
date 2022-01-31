@@ -1,21 +1,21 @@
 import java.util.LinkedList;
   
-public class GfG {
+public class linkedlist_pop_operation {
     public static void main(String[] args)
     {
   
         LinkedList<String> stack = new LinkedList<>();
   
      
-        stack.push("Geeks");
+        stack.push("tanya");
   
-        stack.push("for");
+        stack.push("bansal");
 
         String s = stack.pop();
   
         System.out.println(s);
   
-        stack.push("Geeks");
+        stack.push("ritesh");
   
         System.out.println(stack);
     }
