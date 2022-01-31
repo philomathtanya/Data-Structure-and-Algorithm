@@ -1,5 +1,5 @@
 import java.util.*;  
-public class LinkedList1{  
+public class linkedlist_basic{  
  public static void main(String args[]){  
   
   LinkedList<String> al=new LinkedList<String>();  
