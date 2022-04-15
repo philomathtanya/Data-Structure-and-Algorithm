@@ -6,8 +6,6 @@ public class Binary_search_input {
         int start=0;
         int end=arr.length-1;
         int index=0;
-
-
         while(start<=end)
         {
             int mid=(start+end) /2;
@@ -30,8 +28,6 @@ public class Binary_search_input {
         {
             System.out.println("Element is not present in array!");
         }
-
-
     }
     public static void main(String[] args) {
         //Sorted array
@@ -42,7 +38,6 @@ public class Binary_search_input {
         for (int i = 0; i < 5; i++) {
             arr[i]=s.nextInt();
         }
-
         System.out.println("Enter the number:");
         int p=s.nextInt();
         obj.search(arr,p);
