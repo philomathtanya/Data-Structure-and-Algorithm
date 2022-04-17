@@ -19,6 +19,7 @@ public class reverse_linkedlist_recursion
     {
         node nn=new node();
         nn.data=n;
+
         nn.next=null;
         if(head==null)
         {
