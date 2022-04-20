@@ -10,9 +10,10 @@ public class fibonacci_recursion {
         else if(n==2)
         {
             return 1;
+
         }
         else
-            return fab(n-1)+fab(n-2);
+            return fab(n-1)+fab(n-2);//5 4 3 2-1+
     }
 
     public static void main(String[] args) {
