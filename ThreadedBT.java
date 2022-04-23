@@ -1,4 +1,6 @@
-class Node
+
+public class ThreadedBT {
+ static class Node
 {
   int data;
   Node left;
@@ -10,7 +12,6 @@ class Node
     this.data = data;
   }
 }
-public class ThreadedBT {
   public static Node leftMost(Node root)
   {
     if(root== null)
