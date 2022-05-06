@@ -1,3 +1,4 @@
+//linked list practical question
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -19,7 +20,7 @@ class Edge implements  Comparable<Edge>
 
   }
 }
-public class kruskal_Algo {
+public class kruskal_Algo{
   public static Edge[] kruskal(Edge edges[], int v)
   {
     Arrays.sort(edges);
