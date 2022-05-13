@@ -68,7 +68,7 @@ public class Add_one_to_a_number_represented_as_linked_list
         printList(head);
         head = addOne(head);
         System.out.println();
-        System.out.print("Resultant list is :");
+        System.out.print("Resultant list is ");
         printList(head);
     }
 }
