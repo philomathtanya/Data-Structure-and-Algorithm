@@ -32,7 +32,7 @@ public class Stack_using _singly_queue
     {
         if (q.isEmpty())
         {
-            System.out.println("No elements");
+            System.out.println("No elements:");
             return -1;
         }
         int x = q.remove();
